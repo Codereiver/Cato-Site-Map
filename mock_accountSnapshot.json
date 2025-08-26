@@ -1,0 +1,3109 @@
+{
+  "data": {
+    "accountSnapshot": {
+      "sites": [
+        {
+          "connectivityStatus": "disconnected",
+          "info": {
+            "name": "StirlingDC",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 55.70036,
+                    "longitude": -3.62579
+                  },
+                  "popName": "Manchester"
+                },
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 55.70036,
+                    "longitude": -3.62579
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Cairo Office",
+            "countryCode": "EG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 30.0444,
+                    "longitude": 31.2358
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Accra Office",
+            "countryCode": "GH"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 5.5461,
+                    "longitude": -0.2067
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Windhoek Office",
+            "countryCode": "NA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -22.57,
+                    "longitude": 17.0836
+                  },
+                  "popName": "Johannesburg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nairobi Office",
+            "countryCode": "KE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -1.2864,
+                    "longitude": 36.8172
+                  },
+                  "popName": "Nairobi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "disconnected",
+          "info": {
+            "name": "Addis Ababa Branch",
+            "countryCode": "ET"
+          }
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Marrakech Office",
+            "countryCode": "MA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 31.63,
+                    "longitude": -8.0089
+                  },
+                  "popName": "Casablanca"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Athens Office",
+            "countryCode": "GR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 37.9842,
+                    "longitude": 23.7281
+                  },
+                  "popName": "Bucharest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Barcelona Office",
+            "countryCode": "ES"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.3833,
+                    "longitude": 2.1833
+                  },
+                  "popName": "Madrid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Rome Office",
+            "countryCode": "IT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.8931,
+                    "longitude": 12.4828
+                  },
+                  "popName": "Milan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Istanbul Office",
+            "countryCode": "TR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.0136,
+                    "longitude": 28.955
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Jerusalem Office",
+            "countryCode": "IL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 31.7789,
+                    "longitude": 35.2256
+                  },
+                  "popName": "Tel Aviv"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Lisbon Office",
+            "countryCode": "PT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 38.7122,
+                    "longitude": -9.134
+                  },
+                  "popName": "Madrid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Edinburgh Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 55.95,
+                    "longitude": -3.1833
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Khartoum Office",
+            "countryCode": "SD"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 15.6031,
+                    "longitude": 32.5265
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Abidjan Office",
+            "countryCode": "CI"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 5.3364,
+                    "longitude": -4.0267
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Algiers Office",
+            "countryCode": "DZ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 36.7325,
+                    "longitude": 3.0872
+                  },
+                  "popName": "Casablanca"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Lusaka Office",
+            "countryCode": "ZM"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -15.4167,
+                    "longitude": 28.2833
+                  },
+                  "popName": "Johannesburg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kampala Office",
+            "countryCode": "UG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 0.3136,
+                    "longitude": 32.5811
+                  },
+                  "popName": "nairobi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Harare Office",
+            "countryCode": "ZW"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -17.8292,
+                    "longitude": 31.0522
+                  },
+                  "popName": "Johannesburg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Dakar Office",
+            "countryCode": "SN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 14.6726,
+                    "longitude": -17.432
+                  },
+                  "popName": "Casablanca"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Montevideo Office",
+            "countryCode": "UY"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -34.9056,
+                    "longitude": -56.1842
+                  },
+                  "popName": "Buenos Aires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Guatemala City Office",
+            "countryCode": "GT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 14.6417,
+                    "longitude": -90.5133
+                  },
+                  "popName": "Mexico City"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tegucigalpa Office",
+            "countryCode": "HN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 14.1057,
+                    "longitude": -87.204
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Managua Office",
+            "countryCode": "NI"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 12.1364,
+                    "longitude": -86.2514
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kingston Office",
+            "countryCode": "JM"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 17.9714,
+                    "longitude": -76.7931
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Dhaka Office",
+            "countryCode": "BD"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 23.7289,
+                    "longitude": 90.3944
+                  },
+                  "popName": "Chennai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kathmandu Office",
+            "countryCode": "NP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 27.71,
+                    "longitude": 85.32
+                  },
+                  "popName": "Mumbai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Reykjavik Office",
+            "countryCode": "IS"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 64.1353,
+                    "longitude": -21.8952
+                  },
+                  "popName": "Dublin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tallinn Office",
+            "countryCode": "EE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 59.4372,
+                    "longitude": 24.7453
+                  },
+                  "popName": "Helsinki"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Riga Office",
+            "countryCode": "LV"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 56.9475,
+                    "longitude": 24.1069
+                  },
+                  "popName": "Stockholm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Vilnius Office",
+            "countryCode": "LT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 54.6872,
+                    "longitude": 25.28
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Minsk Office",
+            "countryCode": "BY"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 53.9006,
+                    "longitude": 27.5586
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Belgrade Office",
+            "countryCode": "RS"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 44.8178,
+                    "longitude": 20.4569
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Zagreb Office",
+            "countryCode": "HR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 45.8131,
+                    "longitude": 15.9772
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Ljubljana Office",
+            "countryCode": "SI"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 46.0514,
+                    "longitude": 14.5061
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Skopje Office",
+            "countryCode": "MK"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.9961,
+                    "longitude": 21.4317
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tirana Office",
+            "countryCode": "AL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.3272,
+                    "longitude": 19.8186
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Sarajevo Office",
+            "countryCode": "BA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 43.8564,
+                    "longitude": 18.4131
+                  },
+                  "popName": "Vienna"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Sofia Office",
+            "countryCode": "BG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 42.6979,
+                    "longitude": 23.3217
+                  },
+                  "popName": "Bucharest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tbilisi Office",
+            "countryCode": "GE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.7225,
+                    "longitude": 44.7925
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Yerevan Office",
+            "countryCode": "AM"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 40.1814,
+                    "longitude": 44.5144
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Baku Office",
+            "countryCode": "AZ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 40.3667,
+                    "longitude": 49.8352
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Canberra Office",
+            "countryCode": "AU"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -35.2931,
+                    "longitude": 149.1269
+                  },
+                  "popName": "Sydney"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Wellington Office",
+            "countryCode": "NZ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -41.2889,
+                    "longitude": 174.7772
+                  },
+                  "popName": "Auckland"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Suva Office",
+            "countryCode": "FJ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -18.1333,
+                    "longitude": 178.4333
+                  },
+                  "popName": "Sydney"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Port Moresby Office",
+            "countryCode": "PG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -9.4789,
+                    "longitude": 147.1494
+                  },
+                  "popName": "Sydney"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Port-au-Prince Office",
+            "countryCode": "HT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 18.5425,
+                    "longitude": -72.3386
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tashkent Office",
+            "countryCode": "UZ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.3111,
+                    "longitude": 69.2797
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bishkek Office",
+            "countryCode": "KG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 42.8667,
+                    "longitude": 74.5667
+                  },
+                  "popName": "Almaty"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Dushanbe Office",
+            "countryCode": "TJ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 38.5367,
+                    "longitude": 68.78
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Ashgabat Office",
+            "countryCode": "TM"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 37.9375,
+                    "longitude": 58.38
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kabul Office",
+            "countryCode": "AF"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 34.5253,
+                    "longitude": 69.1783
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Islamabad Office",
+            "countryCode": "PK"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 33.6931,
+                    "longitude": 73.0639
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Karachi Office",
+            "countryCode": "PK"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 24.86,
+                    "longitude": 67.01
+                  },
+                  "popName": "Mumbai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Lahore Office",
+            "countryCode": "PK"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 31.5497,
+                    "longitude": 74.3436
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kinshasa Office",
+            "countryCode": "CD"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -4.3219,
+                    "longitude": 15.3119
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Brazzaville Office",
+            "countryCode": "CG"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -4.2667,
+                    "longitude": 15.2667
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kigali Office",
+            "countryCode": "RW"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -1.9536,
+                    "longitude": 30.0606
+                  },
+                  "popName": "nairobi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bujumbura Office",
+            "countryCode": "BI"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -3.3833,
+                    "longitude": 29.3667
+                  },
+                  "popName": "nairobi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bangui Office",
+            "countryCode": "CF"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 4.3733,
+                    "longitude": 18.5628
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Malabo Office",
+            "countryCode": "GQ"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 3.7456,
+                    "longitude": 8.7744
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bamako Office",
+            "countryCode": "ML"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 12.6458,
+                    "longitude": -7.9922
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Ouagadougou Office",
+            "countryCode": "BF"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 12.3686,
+                    "longitude": -1.5275
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Conakry Office",
+            "countryCode": "GN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 9.5092,
+                    "longitude": -13.7122
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Freetown Office",
+            "countryCode": "SL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 8.4833,
+                    "longitude": -13.2331
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Monrovia Office",
+            "countryCode": "LR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 6.3133,
+                    "longitude": -10.8014
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Asmara Office",
+            "countryCode": "ER"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 15.3358,
+                    "longitude": 38.9411
+                  },
+                  "popName": "Dubai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Mogadishu Office",
+            "countryCode": "SO"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 2.0392,
+                    "longitude": 45.3419
+                  },
+                  "popName": "nairobi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Niamey Office",
+            "countryCode": "NE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 13.515,
+                    "longitude": 2.1175
+                  },
+                  "popName": "Lagos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nouakchott Office",
+            "countryCode": "MR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 18.0858,
+                    "longitude": -15.9785
+                  },
+                  "popName": "Casablanca"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Hanoi Office",
+            "countryCode": "VN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 21,
+                    "longitude": 105.85
+                  },
+                  "popName": "Ho Chi Minh"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "disconnected",
+          "info": {
+            "name": "Pyongyang Office",
+            "countryCode": "KP"
+          }
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Male Office",
+            "countryCode": "MV"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 4.1753,
+                    "longitude": 73.5089
+                  },
+                  "popName": "Chennai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Thimphu Office",
+            "countryCode": "BT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 27.4722,
+                    "longitude": 89.6361
+                  },
+                  "popName": "Mumbai"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bridgetown Office",
+            "countryCode": "BB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 13.0969,
+                    "longitude": -59.6131
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Ottawa Office",
+            "countryCode": "CA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 45.4247,
+                    "longitude": -75.695
+                  },
+                  "popName": "Toronto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Quebec City Office",
+            "countryCode": "CA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 46.8139,
+                    "longitude": -71.2081
+                  },
+                  "popName": "Montreal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Winnipeg Office",
+            "countryCode": "CA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 49.8844,
+                    "longitude": -97.1464
+                  },
+                  "popName": "Calgary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Halifax Office",
+            "countryCode": "CA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 44.6475,
+                    "longitude": -63.5906
+                  },
+                  "popName": "Montreal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Edmonton Office",
+            "countryCode": "CA"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 53.5344,
+                    "longitude": -113.4903
+                  },
+                  "popName": "Calgary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Philadelphia Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 40.0077,
+                    "longitude": -75.1339
+                  },
+                  "popName": "New York"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Baltimore Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 39.3051,
+                    "longitude": -76.6144
+                  },
+                  "popName": "Ashburn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tampa Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 27.9945,
+                    "longitude": -82.4447
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Orlando Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 28.4773,
+                    "longitude": -81.337
+                  },
+                  "popName": "Miami"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Jacksonville Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 30.3322,
+                    "longitude": -81.6749
+                  },
+                  "popName": "Atlanta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Columbus Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 39.9862,
+                    "longitude": -82.9855
+                  },
+                  "popName": "Chicago"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Cleveland Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 41.4764,
+                    "longitude": -81.6805
+                  },
+                  "popName": "Chicago"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Pittsburgh Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 40.4397,
+                    "longitude": -79.9763
+                  },
+                  "popName": "New York"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nashville Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 36.1715,
+                    "longitude": -86.7842
+                  },
+                  "popName": "Atlanta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Buffalo Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 42.9018,
+                    "longitude": -78.8487
+                  },
+                  "popName": "New York"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "San Diego Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 32.8313,
+                    "longitude": -117.1222
+                  },
+                  "popName": "Los Angeles"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Milwaukee Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 43.0642,
+                    "longitude": -87.9675
+                  },
+                  "popName": "Chicago"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Raleigh Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.8324,
+                    "longitude": -78.6429
+                  },
+                  "popName": "Charlotte"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Richmond Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 37.5295,
+                    "longitude": -77.4756
+                  },
+                  "popName": "Ashburn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Memphis Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.1087,
+                    "longitude": -89.9663
+                  },
+                  "popName": "Atlanta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Louisville Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 38.1663,
+                    "longitude": -85.6485
+                  },
+                  "popName": "Cincinnati"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Tucson Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 32.1541,
+                    "longitude": -110.8787
+                  },
+                  "popName": "Phoenix"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Albuquerque Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.1054,
+                    "longitude": -106.6465
+                  },
+                  "popName": "Denver"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Spokane Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 47.6671,
+                    "longitude": -117.433
+                  },
+                  "popName": "Seattle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Norfolk Office",
+            "countryCode": "US"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 36.8945,
+                    "longitude": -76.259
+                  },
+                  "popName": "Ashburn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Córdoba Office",
+            "countryCode": "AR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -31.4167,
+                    "longitude": -64.1833
+                  },
+                  "popName": "Buenos Aires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Rosario Office",
+            "countryCode": "AR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -32.9575,
+                    "longitude": -60.6394
+                  },
+                  "popName": "Buenos Aires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Salvador Office",
+            "countryCode": "BR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -12.9831,
+                    "longitude": -38.4928
+                  },
+                  "popName": "Sao Paulo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Fortaleza Office",
+            "countryCode": "BR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -3.7275,
+                    "longitude": -38.5275
+                  },
+                  "popName": "Sao Paulo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Medellín Office",
+            "countryCode": "CO"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 6.2308,
+                    "longitude": -75.5906
+                  },
+                  "popName": "Bogota"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Brisbane Office",
+            "countryCode": "AU"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -27.4678,
+                    "longitude": 153.0281
+                  },
+                  "popName": "Sydney"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Adelaide Office",
+            "countryCode": "AU"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -34.9275,
+                    "longitude": 138.6
+                  },
+                  "popName": "Melbourne"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Wollongong Office",
+            "countryCode": "AU"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -34.4331,
+                    "longitude": 150.8831
+                  },
+                  "popName": "Sydney"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nanjing Office",
+            "countryCode": "CN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 32.0608,
+                    "longitude": 118.7789
+                  },
+                  "popName": "ShanghaiCT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Chengdu Office",
+            "countryCode": "CN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 30.66,
+                    "longitude": 104.0633
+                  },
+                  "popName": "Hong Kong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Wuhan Office",
+            "countryCode": "CN"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 30.5934,
+                    "longitude": 114.3046
+                  },
+                  "popName": "Hong Kong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Yokohama Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.4442,
+                    "longitude": 139.6381
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kobe Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 34.6901,
+                    "longitude": 135.1955
+                  },
+                  "popName": "Osaka"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kyoto Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.0117,
+                    "longitude": 135.7683
+                  },
+                  "popName": "Osaka"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Fukuoka Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 33.59,
+                    "longitude": 130.4017
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Sendai Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 38.2682,
+                    "longitude": 140.8694
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Hiroshima Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 34.3914,
+                    "longitude": 132.4519
+                  },
+                  "popName": "Osaka"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kawasaki Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.5167,
+                    "longitude": 139.7
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Chiba Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 35.6073,
+                    "longitude": 140.1064
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kitakyushu Office",
+            "countryCode": "JP"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 33.8833,
+                    "longitude": 130.8833
+                  },
+                  "popName": "Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Medan Office",
+            "countryCode": "ID"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 3.5894,
+                    "longitude": 98.6739
+                  },
+                  "popName": "Singapore"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Surabaya Office",
+            "countryCode": "ID"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -7.2458,
+                    "longitude": 112.7378
+                  },
+                  "popName": "Jakarta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Palembang Office",
+            "countryCode": "ID"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -2.9861,
+                    "longitude": 104.7556
+                  },
+                  "popName": "Singapore"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Makassar Office",
+            "countryCode": "ID"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -5.1331,
+                    "longitude": 119.4136
+                  },
+                  "popName": "Jakarta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bandung Office",
+            "countryCode": "ID"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": -6.912,
+                    "longitude": 107.6097
+                  },
+                  "popName": "Jakarta"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Lyon Office",
+            "countryCode": "FR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 45.76,
+                    "longitude": 4.84
+                  },
+                  "popName": "Paris"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bordeaux Office",
+            "countryCode": "FR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 44.84,
+                    "longitude": -0.58
+                  },
+                  "popName": "Paris"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Toulouse Office",
+            "countryCode": "FR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 43.6045,
+                    "longitude": 1.444
+                  },
+                  "popName": "Paris"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nice Office",
+            "countryCode": "FR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 43.7034,
+                    "longitude": 7.2663
+                  },
+                  "popName": "Marseille"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nantes Office",
+            "countryCode": "FR"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 47.2181,
+                    "longitude": -1.5528
+                  },
+                  "popName": "Paris"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Valencia Office",
+            "countryCode": "ES"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 39.47,
+                    "longitude": -0.3764
+                  },
+                  "popName": "Madrid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Seville Office",
+            "countryCode": "ES"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 37.3886,
+                    "longitude": -5.9823
+                  },
+                  "popName": "Madrid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bilbao Office",
+            "countryCode": "ES"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 43.2569,
+                    "longitude": -2.9236
+                  },
+                  "popName": "Madrid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Naples Office",
+            "countryCode": "IT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 40.8358,
+                    "longitude": 14.2486
+                  },
+                  "popName": "Milan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Turin Office",
+            "countryCode": "IT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 45.0792,
+                    "longitude": 7.6761
+                  },
+                  "popName": "Milan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Palermo Office",
+            "countryCode": "IT"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 38.1157,
+                    "longitude": 13.3613
+                  },
+                  "popName": "Milan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Rotterdam Office",
+            "countryCode": "NL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.92,
+                    "longitude": 4.48
+                  },
+                  "popName": "Amsterdam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "The Hague Office",
+            "countryCode": "NL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.08,
+                    "longitude": 4.31
+                  },
+                  "popName": "Amsterdam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Utrecht Office",
+            "countryCode": "NL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.0908,
+                    "longitude": 5.1217
+                  },
+                  "popName": "Amsterdam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Antwerp Office",
+            "countryCode": "BE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.2178,
+                    "longitude": 4.4003
+                  },
+                  "popName": "Brussels"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Ghent Office",
+            "countryCode": "BE"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.0543,
+                    "longitude": 3.7174
+                  },
+                  "popName": "Brussels"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Krakow Office",
+            "countryCode": "PL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 50.0647,
+                    "longitude": 19.945
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Wroclaw Office",
+            "countryCode": "PL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.1079,
+                    "longitude": 17.0385
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Gdansk Office",
+            "countryCode": "PL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 54.3520,
+                    "longitude": 18.6464
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Poznan Office",
+            "countryCode": "PL"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.4064,
+                    "longitude": 16.9252
+                  },
+                  "popName": "Warsaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Birmingham Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.48,
+                    "longitude": -1.9025
+                  },
+                  "popName": "London"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Leeds Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 53.7975,
+                    "longitude": -1.5436
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Sheffield Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 53.3808,
+                    "longitude": -1.4703
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Bristol Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.4536,
+                    "longitude": -2.5975
+                  },
+                  "popName": "London"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Glasgow Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 55.8611,
+                    "longitude": -4.25
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Liverpool Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 53.4072,
+                    "longitude": -2.9917
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Newcastle Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 54.978,
+                    "longitude": -1.6102
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Cardiff Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 51.4816,
+                    "longitude": -3.1791
+                  },
+                  "popName": "London"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Leicester Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.6361,
+                    "longitude": -1.1331
+                  },
+                  "popName": "London"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Nottingham Office",
+            "countryCode": "GB"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 52.9561,
+                    "longitude": -1.1512
+                  },
+                  "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

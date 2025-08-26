@@ -52,15 +52,29 @@ class API:
 				data=body,
 				headers=headers
 			)
+			# Create secure SSL context with minimum TLS 1.2
+			context = ssl.create_default_context(cafile=certifi.where())
+			context.minimum_version = ssl.TLSVersion.TLSv1_2
+			
 			response = urllib.request.urlopen(
 				request, 
-				context=ssl.create_default_context(cafile=certifi.where()),
+				context=context,
 				timeout=10
 			)
 			response_data = gzip.decompress(response.read())
 			response_obj = json.loads(response_data.decode('utf-8','replace'))
-		except Exception as e:
-			return False, {"error":f'{e}'}
+		except urllib.error.HTTPError as e:
+			# Log HTTP errors without exposing sensitive details
+			return False, {"error": f"HTTP error {e.code}"}
+		except urllib.error.URLError:
+			# Network connectivity issues
+			return False, {"error": "Network connection failed"}
+		except json.JSONDecodeError:
+			# Invalid JSON response
+			return False, {"error": "Invalid response format"}
+		except Exception:
+			# Generic error without exposing details
+			return False, {"error": "API request failed"}
 		if "errors" in response_obj:
 			return False, response_obj
 		else:

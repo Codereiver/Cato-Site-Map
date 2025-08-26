@@ -1,0 +1,1173 @@
+{
+  "data": {
+    "popLocations": {
+      "popLocationList": {
+        "items": [
+          {
+            "id": "153",
+            "name": "Ashburn2",
+            "displayName": "Ashburn_DC2",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "85",
+            "name": "Milan",
+            "displayName": "Milan",
+            "country": {
+              "id": "it",
+              "name": "Italy"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "16",
+            "name": "Los Angeles",
+            "displayName": "Los Angeles",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "58",
+            "name": "Stockholm",
+            "displayName": "Stockholm",
+            "country": {
+              "id": "se",
+              "name": "Sweden"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Digital Realty"
+              }
+            ]
+          },
+          {
+            "id": "101",
+            "name": "Paris",
+            "displayName": "Paris",
+            "country": {
+              "id": "fr",
+              "name": "France"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "29",
+            "name": "Singapore",
+            "displayName": "Singapore",
+            "country": {
+              "id": "sg",
+              "name": "Singapore"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "117",
+            "name": "Jakarta",
+            "displayName": "Jakarta",
+            "country": {
+              "id": "id",
+              "name": "Indonesia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "149",
+            "name": "Osaka2",
+            "displayName": "Osaka_DC2",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "113",
+            "name": "Taipei",
+            "displayName": "Taipei",
+            "country": {
+              "id": "tw",
+              "name": "Taiwan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "157",
+            "name": "honolulu",
+            "displayName": "Honolulu",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "67",
+            "name": "Mexico City",
+            "displayName": "Mexico City",
+            "country": {
+              "id": "mx",
+              "name": "Mexico"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "60",
+            "name": "Sydney",
+            "displayName": "Sydney",
+            "country": {
+              "id": "au",
+              "name": "Australia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "104",
+            "name": "Zurich",
+            "displayName": "Zurich",
+            "country": {
+              "id": "ch",
+              "name": "Switzerland"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "141",
+            "name": "Tokyo2",
+            "displayName": "Tokyo_DC2",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "69",
+            "name": "Toronto",
+            "displayName": "Toronto",
+            "country": {
+              "id": "ca",
+              "name": "Canada"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "70",
+            "name": "Bangkok",
+            "displayName": "Bangkok",
+            "country": {
+              "id": "th",
+              "name": "Thailand"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "111",
+            "name": "Casablanca",
+            "displayName": "Casablanca",
+            "country": {
+              "id": "ma",
+              "name": "Morocco"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "107",
+            "name": "Osaka",
+            "displayName": "Osaka",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "14",
+            "name": "Mumbai_AWS",
+            "displayName": "Mumbai_AWS",
+            "country": {
+              "id": "in",
+              "name": "India"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "148",
+            "name": "Frankfurt2",
+            "displayName": "Frankfurt_DC2",
+            "country": {
+              "id": "de",
+              "name": "Germany"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "147",
+            "name": "Vancouver",
+            "displayName": "Vancouver",
+            "country": {
+              "id": "ca",
+              "name": "Canada"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "144",
+            "name": "Austin",
+            "displayName": "Austin TX",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "61",
+            "name": "Kuala Lumpur",
+            "displayName": "Kuala Lumpur",
+            "country": {
+              "id": "my",
+              "name": "Malaysia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "159",
+            "name": "sapporo",
+            "displayName": "Sapporo",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "64",
+            "name": "Dubai",
+            "displayName": "Dubai",
+            "country": {
+              "id": "ae",
+              "name": "United Arab Emirates"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "28",
+            "name": "Seoul_AWS",
+            "displayName": "Seoul_AWS",
+            "country": {
+              "id": "kr",
+              "name": "South Korea"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "139",
+            "name": "Warsaw",
+            "displayName": "Warsaw",
+            "country": {
+              "id": "pl",
+              "name": "Poland"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "17",
+            "name": "Chicago",
+            "displayName": "Chicago",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "12",
+            "name": "Ashburn",
+            "displayName": "Ashburn",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "138",
+            "name": "Montreal",
+            "displayName": "Montreal",
+            "country": {
+              "id": "ca",
+              "name": "Canada"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "74",
+            "name": "ShanghaiCT",
+            "displayName": "Shanghai_DC1",
+            "country": {
+              "id": "cn",
+              "name": "China"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "136",
+            "name": "Monterrey",
+            "displayName": "Monterrey",
+            "country": {
+              "id": "mx",
+              "name": "Mexico"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "57",
+            "name": "New York",
+            "displayName": "New York",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "82",
+            "name": "Santiago",
+            "displayName": "Santiago",
+            "country": {
+              "id": "cl",
+              "name": "Chile"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "10",
+            "name": "Vienna",
+            "displayName": "Vienna",
+            "country": {
+              "id": "at",
+              "name": "Austria"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "18",
+            "name": "Dallas",
+            "displayName": "Dallas",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "126",
+            "name": "Portland",
+            "displayName": "Portland",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "66",
+            "name": "Santa Clara",
+            "displayName": "Santa Clara",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "49",
+            "name": "Seattle",
+            "displayName": "Seattle",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "116",
+            "name": "Prague",
+            "displayName": "Prague",
+            "country": {
+              "id": "cz",
+              "name": "Czechia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "137",
+            "name": "Phoenix",
+            "displayName": "Phoenix",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "108",
+            "name": "Lima",
+            "displayName": "Lima",
+            "country": {
+              "id": "pe",
+              "name": "Peru"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "140",
+            "name": "Salt Lake City",
+            "displayName": "Salt Lake City",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "15",
+            "name": "Dubai2",
+            "displayName": "Dubai_DC2",
+            "country": {
+              "id": "ae",
+              "name": "United Arab Emirates"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "71",
+            "name": "Perth",
+            "displayName": "Perth",
+            "country": {
+              "id": "au",
+              "name": "Australia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "110",
+            "name": "Sao Paulo",
+            "displayName": "Sao_Paulo",
+            "country": {
+              "id": "br",
+              "name": "Brazil"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "19",
+            "name": "London",
+            "displayName": "London",
+            "country": {
+              "id": "gb",
+              "name": "United Kingdom"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "92",
+            "name": "Melbourne",
+            "displayName": "Melbourne",
+            "country": {
+              "id": "au",
+              "name": "Australia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "132",
+            "name": "San Jose",
+            "displayName": "San Jose, Costa Rica",
+            "country": {
+              "id": "cr",
+              "name": "Costa Rica"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "56",
+            "name": "Denver",
+            "displayName": "Denver",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "86",
+            "name": "Johannesburg",
+            "displayName": "Johannesburg",
+            "country": {
+              "id": "za",
+              "name": "South Africa"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "65",
+            "name": "Mumbai",
+            "displayName": "Mumbai",
+            "country": {
+              "id": "in",
+              "name": "India"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "25",
+            "name": "Buenos Aires",
+            "displayName": "Buenos Aires",
+            "country": {
+              "id": "ar",
+              "name": "Argentina"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "133",
+            "name": "Helsinki",
+            "displayName": "Helsinki",
+            "country": {
+              "id": "fi",
+              "name": "Finland"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "127",
+            "name": "Brussels",
+            "displayName": "Brussels",
+            "country": {
+              "id": "be",
+              "name": "Belgium"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "23",
+            "name": "Oslo",
+            "displayName": "Oslo",
+            "country": {
+              "id": "no",
+              "name": "Norway"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "160",
+            "name": "Tokyo4",
+            "displayName": "Tokyo_DC4",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "125",
+            "name": "Cincinnati",
+            "displayName": "Cincinnati",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "119",
+            "name": "Munich",
+            "displayName": "Munich",
+            "country": {
+              "id": "de",
+              "name": "Germany"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "83",
+            "name": "Ho Chi Minh",
+            "displayName": "Ho Chi Minh",
+            "country": {
+              "id": "vn",
+              "name": "Vietnam"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "130",
+            "name": "Marseille",
+            "displayName": "Marseille",
+            "country": {
+              "id": "fr",
+              "name": "France"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "131",
+            "name": "Copenhagen",
+            "displayName": "Copenhagen",
+            "country": {
+              "id": "dk",
+              "name": "Denmark"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "135",
+            "name": "Bogota",
+            "displayName": "Bogota",
+            "country": {
+              "id": "co",
+              "name": "Colombia"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "59",
+            "name": "Atlanta",
+            "displayName": "Atlanta",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "158",
+            "name": "Tokyo3",
+            "displayName": "Tokyo_DC3",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "50",
+            "name": "Miami",
+            "displayName": "Miami",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "102",
+            "name": "Boston",
+            "displayName": "Boston",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "96",
+            "name": "Detroit",
+            "displayName": "Detroit",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "13",
+            "name": "Amsterdam",
+            "displayName": "Amsterdam",
+            "country": {
+              "id": "nl",
+              "name": "Netherlands"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "145",
+            "name": "Chennai",
+            "displayName": "Chennai",
+            "country": {
+              "id": "in",
+              "name": "India"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "81",
+            "name": "Manila",
+            "displayName": "Manila",
+            "country": {
+              "id": "ph",
+              "name": "Philippines"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "11",
+            "name": "Frankfurt",
+            "displayName": "Frankfurt",
+            "country": {
+              "id": "de",
+              "name": "Germany"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Digital Realty"
+              }
+            ]
+          },
+          {
+            "id": "54",
+            "name": "Tokyo",
+            "displayName": "Tokyo",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "120",
+            "name": "Auckland",
+            "displayName": "Auckland",
+            "country": {
+              "id": "nz",
+              "name": "New Zealand"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "21",
+            "name": "Lagos",
+            "displayName": "Lagos",
+            "country": {
+              "id": "ng",
+              "name": "Nigeria"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "154",
+            "name": "kansas-city",
+            "displayName": "Kansas-City",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "6",
+            "name": "Tokyo_AWS",
+            "displayName": "Tokyo_AWS",
+            "country": {
+              "id": "jp",
+              "name": "Japan"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "72",
+            "name": "Las Vegas",
+            "displayName": "Las Vegas",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "122",
+            "name": "Madrid",
+            "displayName": "Madrid",
+            "country": {
+              "id": "es",
+              "name": "Spain"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "124",
+            "name": "Dublin",
+            "displayName": "Dublin",
+            "country": {
+              "id": "ie",
+              "name": "Ireland"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          },
+          {
+            "id": "129",
+            "name": "Quito",
+            "displayName": "Quito",
+            "country": {
+              "id": "ec",
+              "name": "Ecuador"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "73",
+            "name": "BeijingCT",
+            "displayName": "Beijing_DC1",
+            "country": {
+              "id": "cn",
+              "name": "China"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "112",
+            "name": "Charlotte",
+            "displayName": "Charlotte",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "75",
+            "name": "Bucharest",
+            "displayName": "Bucharest",
+            "country": {
+              "id": "ro",
+              "name": "Romania"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "121",
+            "name": "Manchester",
+            "displayName": "Manchester",
+            "country": {
+              "id": "gb",
+              "name": "United Kingdom"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              },
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Megaport"
+              }
+            ]
+          },
+          {
+            "id": "106",
+            "name": "Houston",
+            "displayName": "Houston",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "152",
+            "name": "nairobi",
+            "displayName": "Nairobi",
+            "country": {
+              "id": "ke",
+              "name": "Kenya"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "7",
+            "name": "Tel Aviv",
+            "displayName": "Tel Aviv",
+            "country": {
+              "id": "il",
+              "name": "Israel"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "118",
+            "name": "Minneapolis",
+            "displayName": "Minneapolis",
+            "country": {
+              "id": "us",
+              "name": "United States"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "109",
+            "name": "ShenzhenCT",
+            "displayName": "Shenzhen_DC1",
+            "country": {
+              "id": "cn",
+              "name": "China"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "68",
+            "name": "Calgary",
+            "displayName": "Calgary",
+            "country": {
+              "id": "ca",
+              "name": "Canada"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "20",
+            "name": "Hong Kong",
+            "displayName": "Hong Kong",
+            "country": {
+              "id": "hk",
+              "name": "Hong Kong"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "115",
+            "name": "Seoul",
+            "displayName": "Seoul",
+            "country": {
+              "id": "kr",
+              "name": "South Korea"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": []
+          },
+          {
+            "id": "128",
+            "name": "Hong Kong Equinix",
+            "displayName": "Hong Kong DC2",
+            "country": {
+              "id": "hk",
+              "name": "Hong Kong"
+            },
+            "isPrivate": false,
+            "cloudInterconnect": [
+              {
+                "taggingMethod": "DOT1Q",
+                "providerName": "Equinix"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
