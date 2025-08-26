@@ -13,15 +13,15 @@
               "interfaces": [
                 {
                   "tunnelRemoteIPInfo": {
-                    "latitude": 55.70036,
-                    "longitude": -3.62579
+                    "latitude": 56.00036,
+                    "longitude": -3.56579
                   },
                   "popName": "Manchester"
                 },
                 {
                   "tunnelRemoteIPInfo": {
-                    "latitude": 55.70036,
-                    "longitude": -3.62579
+                    "latitude": 56.00036,
+                    "longitude": -3.56579
                   },
                   "popName": "Manchester"
                 }
@@ -1435,13 +1435,6 @@
               ]
             }
           ]
-        },
-        {
-          "connectivityStatus": "disconnected",
-          "info": {
-            "name": "Pyongyang Office",
-            "countryCode": "KP"
-          }
         },
         {
           "connectivityStatus": "connected",
