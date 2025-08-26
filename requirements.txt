@@ -1,4 +1,2 @@
-gradio
-pandas
-plotly
+folium
 python-dotenv
