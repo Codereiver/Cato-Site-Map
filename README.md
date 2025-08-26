@@ -59,6 +59,19 @@ The script generates `cato_site_map.html` which:
 - Works offline without any server requirements
 - Can be opened by double-clicking the file
 
+## Technology
+
+This project uses [Folium](https://python-visualization.github.io/folium/latest/), a powerful Python library that creates interactive maps using Leaflet.js. Folium makes it easy to:
+- Generate interactive web maps from Python data
+- Add custom markers, popups, and layers
+- Create standalone HTML files that work offline
+- Integrate with popular mapping providers like OpenStreetMap
+
+Learn more about Folium:
+- [Documentation](https://python-visualization.github.io/folium/latest/)
+- [GitHub Repository](https://github.com/python-visualization/folium)
+- [Examples Gallery](https://python-visualization.github.io/folium/latest/gallery.html)
+
 ## Features
 
 - **Static HTML Map**: Generates a standalone HTML file that works offline
