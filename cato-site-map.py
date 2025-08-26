@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import gradio as gr
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from cato import API
 
 
@@ -69,6 +70,7 @@ query = """query accountSnapshot($accountID:ID!) {
                     latitude
                     longitude
                 }
+                popName
             }
             }
         }
@@ -154,17 +156,20 @@ longs = []
 names = []
 sizes = []
 colours = []
+connected_pops = []
 for pop in pop_cities:
     names.append(pop["name"])
-    lats.append(float(pop["lat"]))
-    longs.append(float(pop["long"]))
+    lats.append(float(pop["lat"]) + (random.randint(-1,+1)/50 + 0.05))
+    longs.append(float(pop["long"]) + (random.randint(-1,+1)/50 + 0.05))
     sizes.append(12)
+    connected_pops.append("")
     colours.append("POP")
 for site in snapshot["data"]["accountSnapshot"]["sites"]:
     if site["connectivityStatus"].lower() == "connected":
         names.append(site["info"]["name"])
         lats.append(site["devices"][0]["interfaces"][0]["tunnelRemoteIPInfo"]["latitude"])
         longs.append(site["devices"][0]["interfaces"][0]["tunnelRemoteIPInfo"]["longitude"])
+        connected_pops.append(site["devices"][0]["interfaces"][0]["popName"])
         colours.append("Connected Site")
     else:
         names.append(site["info"]["name"])
@@ -183,6 +188,7 @@ for site in snapshot["data"]["accountSnapshot"]["sites"]:
         #
         lats.append(lat + (random.randint(-10,+10)/5))
         longs.append(longi + (random.randint(-10,+10)/5))
+        connected_pops.append("")
         colours.append("Disconnected Site")
     sizes.append(10)
 dataframe = {
@@ -191,13 +197,14 @@ dataframe = {
     "Site": names,
     "Size": sizes,
     "Colour": colours,
+    "Connected POP": connected_pops,
 }
 
 
 #
 # Create a map with the given visibility settings
 #
-def create_map(show_pops=True, show_connected=True, show_disconnected=True):
+def create_map(show_pops=True, show_connected=True, show_disconnected=True, show_lines=False):
     print("[*] Creating the map")
     
     # Filter the dataframe based on visibility settings
@@ -228,9 +235,33 @@ def create_map(show_pops=True, show_connected=True, show_disconnected=True):
         size="Size" if len(filtered_df) > 0 else None,
         size_max=10,
         hover_data={"Site":True, "Latitude":False, "Longitude":False, "Size":False, "Colour":False} if len(filtered_df) > 0 else None,
+        category_orders={"Colour": ["Connected Site", "Disconnected Site", "POP"]},
     )
     world_map.update_traces(hovertemplate='%{text}<extra></extra>')
+    
+    # Add lines from connected sites to their POPs
+    if show_lines and show_connected and show_pops and len(filtered_df) > 0:
+        connected_sites = filtered_df[(filtered_df["Colour"] == "Connected Site") & (filtered_df["Connected POP"] != "")]
+        pops_df = filtered_df[filtered_df["Colour"] == "POP"]
+        
+        for idx, site in connected_sites.iterrows():
+            # Find the matching POP
+            matching_pop = pops_df[pops_df["Site"] == site["Connected POP"]]
+            if not matching_pop.empty:
+                pop_row = matching_pop.iloc[0]
+                # Add a line from the site to its connected POP
+                world_map.add_trace(go.Scattermapbox(
+                    mode='lines',
+                    lat=[site['Latitude'], pop_row['Latitude']],
+                    lon=[site['Longitude'], pop_row['Longitude']],
+                    line=dict(width=4, color='blue'),
+                    opacity=0.8,
+                    showlegend=False,
+                    hoverinfo='skip'
+                ))
+    
     world_map.update_layout(mapbox_style="open-street-map")
+    
     world_map.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
     world_map.update_layout(legend=dict(
         orientation="h",
@@ -240,6 +271,7 @@ def create_map(show_pops=True, show_connected=True, show_disconnected=True):
         x=1,
         title=""
     ))
+    
     return world_map
 
 
@@ -249,15 +281,17 @@ def create_map(show_pops=True, show_connected=True, show_disconnected=True):
 print("[*] Creating the Gradio UI")
 with gr.Blocks() as demo:
     with gr.Row():
-        show_pops = gr.Checkbox(label="Show POPs", value=True)
         show_connected = gr.Checkbox(label="Show Connected Sites", value=True)
         show_disconnected = gr.Checkbox(label="Show Disconnected Sites", value=True)
+        show_pops = gr.Checkbox(label="Show POPs", value=True)
+        show_lines = gr.Checkbox(label="Show Connectivity Lines", value=False)
     with gr.Column():
         plot = gr.Plot(value=create_map())
     
     # Update map when checkboxes change
-    show_pops.change(create_map, inputs=[show_pops, show_connected, show_disconnected], outputs=plot)
-    show_connected.change(create_map, inputs=[show_pops, show_connected, show_disconnected], outputs=plot)
-    show_disconnected.change(create_map, inputs=[show_pops, show_connected, show_disconnected], outputs=plot)
+    show_pops.change(create_map, inputs=[show_pops, show_connected, show_disconnected, show_lines], outputs=plot)
+    show_connected.change(create_map, inputs=[show_pops, show_connected, show_disconnected, show_lines], outputs=plot)
+    show_disconnected.change(create_map, inputs=[show_pops, show_connected, show_disconnected, show_lines], outputs=plot)
+    show_lines.change(create_map, inputs=[show_pops, show_connected, show_disconnected, show_lines], outputs=plot)
 print("[*] Launching Gradio")
 demo.launch()       
