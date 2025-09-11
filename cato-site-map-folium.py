@@ -376,10 +376,14 @@ def get_coordinates_for_cities(unknown_cities):
     if not api_key:
         return {}
     
-    # Remove duplicates
+    # Remove duplicates and build proper city keys
     unique_cities = {}
     for city_info in unknown_cities:
-        key = f"{city_info['city_name']}, {city_info['country_name']}"
+        # Include state if available for better LLM accuracy
+        if city_info.get('state_name'):
+            key = f"{city_info['city_name']}, {city_info['state_name']}, {city_info['country_name']}"
+        else:
+            key = f"{city_info['city_name']}, {city_info['country_name']}"
         unique_cities[key] = city_info
     
     if not unique_cities:
@@ -522,7 +526,8 @@ if args.llm_cities:
             if not found_city:
                 unknown_cities_list.append({
                     "city_name": city_name,
-                    "country_name": country_name
+                    "country_name": country_name,
+                    "state_name": site_info.get("countryStateName")
                 })
     
     # Get coordinates for unknown cities from LLM
@@ -646,7 +651,13 @@ for site in snapshot["data"]["accountSnapshot"]["sites"]:
                 
                 if not found_city:
                     # Check if we have LLM coordinates for this city
-                    city_key = f"{city_name}, {country_name}"
+                    # Try with state first, then without
+                    city_key = None
+                    if state_name:
+                        city_key = f"{city_name}, {state_name}, {country_name}"
+                    if city_key not in llm_city_coordinates:
+                        city_key = f"{city_name}, {country_name}"
+                    
                     if city_key in llm_city_coordinates:
                         coords = llm_city_coordinates[city_key]
                         lat = coords["lat"]
@@ -764,7 +775,13 @@ for site in snapshot["data"]["accountSnapshot"]["sites"]:
             
             if not found_city:
                 # Check if we have LLM coordinates for this city
-                city_key = f"{city_name}, {country_name}"
+                # Try with state first, then without
+                city_key = None
+                if state_name:
+                    city_key = f"{city_name}, {state_name}, {country_name}"
+                if city_key not in llm_city_coordinates:
+                    city_key = f"{city_name}, {country_name}"
+                
                 if city_key in llm_city_coordinates:
                     coords = llm_city_coordinates[city_key]
                     lat = coords["lat"]
