@@ -172,6 +172,7 @@ def load_real_data():
                 found = True 
                 pop_cities.append({
                     "name": pop["name"],
+                    "displayName": pop.get("displayName", pop["name"]),
                     "lat": city["lat"],
                     "long": city["lng"]
                 })
@@ -237,6 +238,7 @@ def load_mock_data(snapshot_file='mock_accountSnapshot.json'):
                 found = True 
                 pop_cities.append({
                     "name": pop["name"],
+                    "displayName": pop.get("displayName", pop["name"]),
                     "lat": city["lat"],
                     "long": city["lng"]
                 })
@@ -471,8 +473,11 @@ Return only valid JSON without any markdown formatting or explanations."""
 # Load data based on command line argument
 if args.example:
     snapshot, pop_cities = load_mock_data(args.snapshot_file)
+    # Extract filename for title (remove path and extension)
+    snapshot_filename = Path(args.snapshot_file).stem
 else:
     snapshot, pop_cities = load_real_data()
+    snapshot_filename = None
 
 # Prepare LLM city estimations if requested
 llm_city_estimates = {}
@@ -538,7 +543,7 @@ m = folium.Map(
 pops_group = folium.FeatureGroup(name="POPs", show=True)
 connected_sites_group = folium.FeatureGroup(name="Connected Sites", show=True)
 disconnected_sites_group = folium.FeatureGroup(name="Disconnected Sites", show=True)
-connectivity_lines_group = folium.FeatureGroup(name="POP Connections", show=False)
+connectivity_lines_group = folium.FeatureGroup(name="POP Connections", show=True)
 pop_labels_group = folium.FeatureGroup(name="POP Labels", show=False)
 site_labels_group = folium.FeatureGroup(name="Site Labels", show=False)
 
@@ -556,6 +561,9 @@ for pop in pop_cities:
     lat = float(pop["lat"]) + (random.randint(-1,+1)/50 + 0.05)
     lon = float(pop["long"]) + (random.randint(-1,+1)/50 + 0.05)
     pop_locations[pop["name"]] = (lat, lon)
+    # Also store by displayName if different
+    if pop.get("displayName") and pop["displayName"] != pop["name"]:
+        pop_locations[pop["displayName"]] = (lat, lon)
     
     # Check if this POP has connected sites
     has_connected_sites = pop["name"] in connected_pops
@@ -662,14 +670,31 @@ for site in snapshot["data"]["accountSnapshot"]["sites"]:
             print(f"[!] Warning: Skipping malformed site data: {e}")
             continue
         
-        # Store connection info
+        # Store connection info - simplified since pop_locations now has both name and displayName
+        matched_pop_name = None
         if pop_name in pop_locations:
+            matched_pop_name = pop_name
+        else:
+            # Try case-insensitive matching as fallback
+            for key in pop_locations.keys():
+                if key.lower() == pop_name.lower():
+                    matched_pop_name = key
+                    break
+        
+        if matched_pop_name:
             site_connections.append({
                 "site_name": site["info"]["name"],
                 "site_location": (lat, lon),
-                "pop_name": pop_name,
-                "pop_location": pop_locations[pop_name]
+                "pop_name": matched_pop_name,
+                "pop_location": pop_locations[matched_pop_name]
             })
+        else:
+            # Raise exception for connected sites with unmatched POPs
+            raise ValueError(
+                f"Connected site '{site['info']['name']}' has POP '{pop_name}' "
+                f"which cannot be matched to any POP in the location list. "
+                f"Available POPs: {', '.join(sorted(set(p.split()[0] for p in pop_locations.keys())))[:10]}..."
+            )
         
         folium.CircleMarker(
             location=[lat, lon],
@@ -812,13 +837,21 @@ m.add_child(site_labels_group)
 folium.LayerControl(collapsed=False).add_to(m)
 
 # Add a title
-title_html = '''
+if snapshot_filename:
+    title_text = f"Cato Site Map - {snapshot_filename}"
+    # Adjust width for longer titles
+    title_width = max(300, len(title_text) * 12)
+else:
+    title_text = "Cato Site Map"
+    title_width = 300
+
+title_html = f'''
 <div style="position: fixed; 
             top: 10px; left: 50%; transform: translateX(-50%);
-            width: 300px; height: 40px; 
+            width: {title_width}px; height: 40px; 
             background-color: white; border: 2px solid black; z-index:9999; 
             font-size: 18px; font-weight: bold; text-align: center; padding: 8px;">
-    Cato Site Map
+    {html.escape(title_text)}
 </div>
 '''
 m.get_root().html.add_child(folium.Element(title_html))
