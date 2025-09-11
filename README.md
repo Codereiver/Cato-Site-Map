@@ -6,6 +6,7 @@ Interactive map visualization for Cato Networks sites and POP locations.
 
 - Python 3.7+
 - Cato Networks API credentials (Account ID and API Key)
+- (Optional) Anthropic API key for enhanced city geolocation
 
 ## Setup
 
@@ -14,18 +15,20 @@ Interactive map visualization for Cato Networks sites and POP locations.
 pip install -r requirements.txt
 ```
 
-2. Configure your Cato API credentials:
+2. Configure your API credentials:
 
 Create a `.env` file in the project root:
 ```
 CATO_ACCOUNT_ID=your_account_id_here
 CATO_API_KEY=your_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here  # Optional, for LLM features
 ```
 
 Alternatively, set environment variables:
 ```bash
 export CATO_ACCOUNT_ID=your_account_id_here
 export CATO_API_KEY=your_api_key_here
+export ANTHROPIC_API_KEY=your_anthropic_api_key_here  # Optional
 ```
 
 ## Running the Application
@@ -36,6 +39,11 @@ To quickly see the map with sample data (no API credentials needed):
 
 ```bash
 python cato-site-map-folium.py --example
+```
+
+You can also use a custom mock data file:
+```bash
+python cato-site-map-folium.py --example --snapshot-file custom_data.json
 ```
 
 This will:
@@ -50,6 +58,24 @@ If you have Cato API credentials, generate the map with your actual network data
 ```bash
 python cato-site-map-folium.py
 ```
+
+### Enhanced City Geolocation with LLM
+
+For improved accuracy in site placement, enable LLM-based city geolocation:
+
+```bash
+# With example data
+python cato-site-map-folium.py --example --llm-cities
+
+# With real data
+python cato-site-map-folium.py --llm-cities
+```
+
+This feature:
+- **Estimates city names** for sites without configured cities based on site names
+- **Provides coordinates** for cities not in the local database
+- **Improves map accuracy** by reducing reliance on tunnel endpoints or country centers
+- Requires an Anthropic API key in your `.env` file
 
 ### Output
 
@@ -94,6 +120,11 @@ Learn more about Folium:
   - Pan and zoom to explore your network
   - Toggle layers on/off with the control panel
 - **No Server Required**: Double-click the HTML file to open in any browser
+- **LLM-Enhanced Geolocation** (Optional):
+  - Automatically estimates city names from site descriptions
+  - Provides accurate coordinates for cities not in the database
+  - Processes large datasets in efficient batches
+  - Gracefully handles errors and continues processing
 
 ## Example Data
 
@@ -118,6 +149,28 @@ The following files must be present in the project directory:
 - `mock_accountSnapshot.json` - Mock site data (only needed for --example option)
 - `mock_popLocationList.json` - Mock POP data (only needed for --example option)
 
+## Command Line Options
+
+```bash
+python cato-site-map-folium.py [options]
+```
+
+| Option | Description |
+|--------|-------------|
+| `--example` | Use mock data instead of API calls |
+| `--snapshot-file FILE` | Custom accountSnapshot JSON file (with --example) |
+| `--llm-cities` | Enable LLM-based city estimation and geolocation |
+
+## Site Location Priority
+
+The script determines site locations using the following priority:
+
+1. **Configured city name** from site configuration
+2. **LLM-estimated city** (if --llm-cities enabled and no configured city)
+3. **LLM coordinates** for cities not in database (if --llm-cities enabled)
+4. **Tunnel endpoint coordinates** (for connected sites)
+5. **Country center** (for disconnected sites without city data)
+
 ## Troubleshooting
 
 If you encounter errors:
@@ -125,3 +178,5 @@ If you encounter errors:
 2. Ensure all required CSV files are present
 3. Check that you have network connectivity to the Cato API
 4. Make sure all Python dependencies are installed
+5. For LLM features, ensure your Anthropic API key is configured
+6. If LLM requests fail, the script continues with fallback methods
