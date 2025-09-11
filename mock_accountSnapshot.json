@@ -990,7 +990,7 @@
                     "latitude": 42.8667,
                     "longitude": 74.5667
                   },
-                  "popName": "Almaty"
+                  "popName": "Dubai"
                 }
               ]
             }
@@ -3091,6 +3091,29 @@
                     "longitude": -1.1512
                   },
                   "popName": "Manchester"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "connectivityStatus": "connected",
+          "info": {
+            "name": "Kahului Beach Resort",
+            "countryCode": "US",
+            "countryName": "United States",
+            "cityName": "Kahului",
+            "countryStateName": "Hawaii"
+          },
+          "devices": [
+            {
+              "interfaces": [
+                {
+                  "tunnelRemoteIPInfo": {
+                    "latitude": 21.392,
+                    "longitude": -157.7396
+                  },
+                  "popName": "Seattle"
                 }
               ]
             }
